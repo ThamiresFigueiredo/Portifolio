@@ -1,0 +1,178 @@
+#fundomenu {
+    position: absolute;
+    margin-top: 0px;
+    display: block;
+    z-index: -1;
+    width: 100%;
+
+  }
+  
+#logo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+  }
+
+#menu {
+   
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FA1AEB;
+    position: relative;
+
+}
+
+li a,li a::before, li a::after,li a:hover::before, li a:hover::after {
+  text-decoration: none;
+  color: #FA1AEB;
+}
+
+li{
+    display: inline-block; /*itens da lista ficarão na mesma linha */
+    margin-top: 10px;
+}
+
+.lista{
+    
+    z-index: 2;
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FA1AEB;
+    word-spacing: 10px;
+    list-style-type:none; /*tira a bolinhada lista*/
+    text-align: right;
+    margin-left: 10px;
+}
+
+#home {
+    display: grid;
+    grid-auto-flow: column; /*grid que definimos a quantidade de colunas de acordo com a quantidade de divs; ela define como o navwegador irá dividir as divs de uma classe pré-determinada */
+    grid-auto-columns: 50% auto; /* essa propriedade traz uma largura automaticamente definida, fr é uma medida que significa 1 frame*/
+    margin-left: 5%;
+    margin-right: 5%;
+    position: center;
+    height: 500px;
+}
+
+#bio {
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 45px;
+    height: 500px;
+    text-decoration: right;
+
+
+}
+
+#profileimg img{
+
+margin-right: 5%;
+margin-top: 100px;
+margin-left:80px;
+width: 200px; 
+height: 200px;
+}
+
+h1{
+    font-family: 'Fredoka';
+    font-style:normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FA1AEB;
+    padding-left: 0px;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 0px;
+}
+
+p{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FA1AEB;
+    padding-left: 0px;
+    text-align: justify;
+    margin-right:0px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    
+}
+
+#bio h1,p {
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+    text-align: justify;
+
+}
+
+#botãolinkedin {
+    background: #cdfe1d58;
+    border-radius: 50px;
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 58px;
+    height: 30px;
+    left: 1143px;
+    padding: 3%;
+    margin-top: 20px;
+
+}
+
+#iniciativas  {
+
+    background-image: url('Assets/Imagens/Quebra\ de\ página\ rosa.png');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 1px;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column; /*grid que definimos a quantidade de colunas de acordo com a quantidade de divs; ela define como o navwegador irá dividir as divs de uma classe pré-determinada */
+    grid-auto-columns: 1fr;
+
+}
+
+#iniciativas text {
+
+font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px #CCFE1D;
+margin-top: 20px;
+padding:0;
+text-align: right;
+display: inline-block;
+margin-left: 300px;
+
+
+
+}
+
+#iniciativas img[src="Assets/Imagens/computador.png"] {
+ height: 200px;
+ width: 200px;
+ text-align: right;
+ margin-top: 460px;
+ margin-left: 60%;
+
+}
